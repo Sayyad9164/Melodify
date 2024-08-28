@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/specialeffect.css">
+  </head>
+  <body>
+    <div class="container flex bg-black font-spotify">
+      <div class="left"> 
+        <div class="close">
+            <img class="invert" src="img/close.svg" alt="">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo"><img class="invert" src="img/melodify.svg" alt="" />Melodify</div>
+          <ul>
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="img/search.svg" alt="home" />Search</li>
+          </ul>
+        </div>
+
+         <div class="library bg-grey rounded m-1 p-1">
+             <div class="heading">
+                 <img class="invert" src="img/library.svg" alt="">
+                 <h2>
+                     Your library
+                 </h2>
+             </div>
+
+             <div class="songlist">
+                 <ul>
+                    
+                 </ul>
+             </div>
+
+              <div class="footer">
+                 <div><a href="https://www.spotify.com/in-en/legal/">Legal</a></div>
+                    <div><a  href="https://www.spotify.com/in-en/safetyandprivacy/">Safety &amp; Privacy Center</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a></div>
+              </div>
+                    
+          </div>  
+      </div>
+
+        <!-- Right side section -->
+        <div class="right">
+            <div class="header bg-grey rounded p-1">
+                <div class="nav">
+                    <div class="hamburgerContainer flex">
+                        <img id="hamburger" class="invert" src="img/hamburger.svg" alt="">
+                        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>                    
+                        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>  
+                    </div>
+                                  
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn btn">Sign up</button>
+                    <button class="loginbtn btn">Log in</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1>Playlists</h1>
+                <div class="cardContainer">
+                    
+                    <div data-folder="Alan_Walker" class="card one">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i2o.scdn.co/image/ab67706c0000cfa39723dd98e18fe3cf4be2e205" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Alan Walker</h2>
+                        <p>Top Hits</p>
+                    </div>
+
+                    <div data-folder="Eminem" class="card seven">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4gTUOY-default.jpg" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Eminem</h2>
+                        <p>Best raps of the rap god</p>
+                    </div>
+
+                    <div data-folder="Imagine_Dragons" class="card six">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/53XhwfbYqKCa1cC15pYq2q/en-GB/default" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Imagine Dragons</h2>
+                        <p>Top band hits</p>
+                    </div>
+
+                    <div data-folder="Lana_Del_Rey" class="card five">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i2o.scdn.co/image/ab67706c0000cfa34cf7e3af7b6dd171cfd873a1" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Lana Del Rey</h2>
+                        <p>Best of Lana Del Rey</p>
+                    </div>
+
+                    <div data-folder="One_Direction" class="card two">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img  aria-hidden="false" draggable="false" loading="lazy" src="https://mosaic.scdn.co/300/ab67616d00001e02241e4fe75732c9c4b49b94c3ab67616d00001e022f76b797c382bedcafdf45e1ab67616d00001e024e31e0d38b89b8fb239d4fbfab67616d00001e02d304ba2d71de306812eebaf4"  data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>One Direction</h2>
+                        <p>Best Hits of One Direction</p>
+                    </div>
+
+                    <div data-folder="Ed_Sheeran" class="card three">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/6eUKZXaKkcviH0Ku9w2n3V/en-GB/default" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Ed Sheeran</h2>
+                        <p>Populars</p>
+                    </div>
+
+                    <div data-folder="Justin_Bieber" class="card four">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/1uNFoZAHBGtllmzznpCI3s/en-GB/default" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Justin Beiber</h2>
+                        <p>Songs to listen</p>
+                    </div>
+
+                    
+
+                    <div data-folder="Coldplay" class="card eight">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f00000002d24581574e524a70599d1e20" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Cold Play</h2>
+                        <p>Top Hits of Cold Play</p>
+                    </div>
+
+                    <!-- <div data-folder="Owais Raza Qadri" class="card nine"> 
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://seed-mix-image.spotifycdn.com/v6/img/artist/1ymQAIQTQDQyskr4FEG0wO/en-GB/default" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Owais Raza Qadri</h2>
+                        <p>Naat by Owais Raza</p>
+                    </div>
+
+                    <div data-folder="Nusrat Fateh Ali Khan" class="card ten">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i2o.scdn.co/image/ab67706c0000cfa31ae1c42afdeef39d242457bc" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Nusrat Fateh Ali Khan</h2>
+                        <p>My favourites</p>
+                    </div> -->
+
+                    <div data-folder="Others" class="card eleven">
+                        <svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40">
+                            <circle cx="32" cy="32" r="32" fill="green"/>
+                            <polygon points="24,18 24,46 46,32" fill="black" transform="translate()) scale(0.9)"/>
+                          </svg>
+                        <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67706f000000020152dd8f46e7c78ff866579c" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB yMQTWVwLJ5bV8VGiaqU3 Yn2Ei5QZn19gria6LjZj">
+                        <h2>Songs for u</h2>
+                        <p>Sayyad</p>
+                    </div>
+
+
+
+                     
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+                        
+                    </div>
+                </div>
+                <div class="songinfo">
+
+                </div>
+                <div class="songbuttons">
+                    <img id="previous" src="img/prevsong.svg" alt="">
+                    <img id="play" src="img/play.svg" alt="">
+                    <img id="next" src="img/nextsong.svg" alt="">
+                </div>
+
+                <div class="timevol">
+                    <div class="songtime">
+
+                    </div>
+                    <div class="volume flex">
+                        <img class="invert" src="img/volume.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume" id="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+                 
+    <script src="script.js"></script>
+  </body>
+</html>
